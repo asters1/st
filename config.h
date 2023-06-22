@@ -1,6 +1,6 @@
 // 插件地址:https://st.suckless.org/patches/
-
-
+// 依赖:libgd-dev,libX11-dev,libxft-dev
+//
 
 static char *font =
     "SauceCodePro Nerd Font:size=18:antialias=true:autohint=true";
