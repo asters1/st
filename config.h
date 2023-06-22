@@ -199,6 +199,8 @@ static Shortcut shortcuts[] = {
     //上下回滚快捷键,-1为为全屏，1为1行
     {ShiftMask, XK_Page_Up, kscrollup, {.i = -1}},
     {ShiftMask, XK_Page_Down, kscrolldown, {.i = -1}},
+    // copyurl的快捷键设置
+    {MODKEY, XK_l, copyurl, {.i = 0}},
 };
 
 /*
